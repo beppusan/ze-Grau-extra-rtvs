@@ -29,7 +29,7 @@ This repository contains assets, strippers and vscripts to add extra RTV stages 
 2. Download [Stripper:Source](https://forums.alliedmods.net/showthread.php?t=39439) or compile [Stripper SP Edition](https://github.com/tilgep/stripper) with SourcePawn
 3. Download this repository and:
    - Place the `ze_grau_a03_4ff.cfg` file in either `csgo/addons/stripper/maps` or `csgo/addons/sourcemod/configs/stripper/maps`.
-   - Copy the `csgo/assets/materials` and `shared` folders to the `csgo/sound` directory (and also to your local CS:GO directory in Steam).
+   - Copy the `csgo/assets/materials` folder to the `csgo` directory, and copy the contents of the `shared` folder to the `csgo/sound` directory (and also to your local CS:GO directory in Steam).
    - Copy the `csgo/scripts` folder to `csgo/scripts`.
 
 > [!WARNING]
