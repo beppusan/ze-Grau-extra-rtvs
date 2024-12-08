@@ -1,0 +1,13 @@
+{
+	"modify": [
+		// Change the size of beam wider
+		{
+			"match": {
+				"classname": "info_particle_system"
+			},
+			"replace": {
+				"data_cp_value": "12.5 255 3"
+			}
+		}
+	]	
+}

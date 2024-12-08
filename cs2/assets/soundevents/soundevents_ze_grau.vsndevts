@@ -1,0 +1,19 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"custom.music.rtv_bgm_mst" =
+	{
+		type = "csgo_music"
+		stop_all_non_music = 0
+		volume = 1.000000
+		volume_convar = "snd_musicvolume"
+		vsnd_files = "sounds/music/grau/dizzolve_mst.vsnd"
+	}
+	"custom.music.rtv_fys_bgm" =
+	{
+		type = "csgo_music"
+		stop_all_non_music = 0
+		volume = 1.000000
+		volume_convar = "snd_musicvolume"
+		vsnd_files = "sounds/music/grau/seraphim.vsnd"
+	}
+}

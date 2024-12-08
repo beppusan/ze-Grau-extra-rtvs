@@ -1,0 +1,31 @@
+{
+	"modify": [
+		{
+			"match": {
+				"classname": "math_counter",
+				"targetname": "[PR#]rtvcounter"
+			},
+			"replace": {
+				"max": "1"
+			},
+			"delete": {
+				"io": [
+					{
+						"outputname": "OnHitMax"
+					}
+				]
+			},
+			"insert": {
+				"io": [
+					{
+						"outputname": "OnGetValue",
+						"targetname": "rtvcase",
+						"inputname": "InValue",
+						"delay": 0.00,
+						"timestofire": -1
+					}
+				]
+			}
+		}
+	]
+}

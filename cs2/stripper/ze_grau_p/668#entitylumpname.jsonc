@@ -1,0 +1,31 @@
+{
+	"modify": [
+		// Change the size of beam & hitbox wider
+		{
+			"match": {
+				"classname": "info_particle_system"
+			},
+			"replace": {
+				"data_cp_value": "12.5 255 3"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]st3_boss_a6_hurt_1"
+			},
+			"replace": {
+				"angles": "0 90 0"
+			}
+		},
+		{
+			"match": {
+				"classname": "trigger_hurt",
+				"targetname": "[PR#]st3_boss_a6_hurt_2"
+			},
+			"replace": {
+				"angles": "0 90 0"
+			}
+		}
+	]	
+}
