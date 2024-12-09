@@ -78,7 +78,7 @@
 				"origin": "216 -262 -2740"
 			}
 		},
-		// 
+		// Adjust font size to prevent message truncation
 		{
 			"match": {
 				"classname": "point_worldtext",
