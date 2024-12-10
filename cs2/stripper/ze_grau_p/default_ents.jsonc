@@ -575,9 +575,9 @@
 		{
 			"classname": "point_soundevent",
 			"targetname": "rtv_fys_bgm",
-			"spawnflags": "49",
-			"message": "sounds/music/grau/seraphim.vsnd",
-			"soundname": "custom.music.rtv_fys_bgm"
+			"soundname": "custom.music.rtv_fys_bgm",
+			"stoponnew": "1",
+			"origin": "504 400 -2016"
 		},
 		// HP Management
 		{
