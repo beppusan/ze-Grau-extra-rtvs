@@ -2031,7 +2031,7 @@
 			"StartDisabled": "1",
 			"spawnflags": "4097",
 			"target": "rtv_fys_destination_zm",
-			"origin": "-5720 -10740 -8332",
+			"origin": "-5784 -10784 -9300",
 			"model": "maps/ze_grau_p/entities/st3_boss_af_tp_zm_895.vmdl"
 		},
 		{
